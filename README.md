@@ -5,6 +5,11 @@ GameViewer / UU 远程补丁，修复了 UU 远程在 Windows 下键盘/鼠标�
 - 键盘输入时漏事件导致某个键一直被按下/按不下去
 - 有时其他地方的输入被输入到远程机器内去
 
+### 使用
+<img width="607" height="239" alt="image" src="https://github.com/user-attachments/assets/358d3522-0628-48b6-b3ad-57cb90e39050" />
+
+将 `HID.dll` 放置于 GameViewer/bin 文件夹下即可
+
 ### 技术细节
 
 评论区有群友提到一个 Bug ，在双击的时候对鼠标行为的处理是不正确的；我稍微逆向研究了一下，把这个 Bug 修掉了
